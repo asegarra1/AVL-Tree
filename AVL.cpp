@@ -1,9 +1,3 @@
-//HW5  AVL Tree
-//Due: 11:59pm, Monday, Nov. 13
-//This homework requires more efforts. You should get started as soon as possible.
-//Plan to complete add_node by this weekend.
-//You are not allowed to use any extra function.
-//You are not allowed to add extra members to either class node or class AVLtree.
 
 #include <iostream>
 
