@@ -465,7 +465,9 @@ public:
 
 		}
 
-		root->Is_Lchild = 0;
+		if (root != nullptr) { // Check if root is not nullptr before accessing its members
+    			root->Is_Lchild = 0;
+		}
 
 		return { nullptr, 0 };
 	}
