@@ -21,19 +21,32 @@ Rotation Functions:
 
 L_Rotate(node*) and R_Rotate(node*): Perform left and right rotations on the tree to maintain balance after insertions or deletions.
 Assignment Constraints
+
 No additional functions are allowed outside of those specified.
+
 No extra members should be added to the node or AVLtree classes.
 
 
 Usage
+
 cpp
+
 Copy code
+
 int main() {
+   
     AVLtree t1;
+   
     t1.add_node(45);
+  
     t1.add_node(50);
+   
     // ... further operations ...
+   
     return 0;
+
 }
+
 Testing
+
 Test cases will vary to cover different scenarios of adding and deleting nodes, as well as ensuring the tree remains balanced and correctly structured.
