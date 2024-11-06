@@ -14,7 +14,9 @@ add_node(int): Adds a new node with the given value to the tree. In case of a ti
 delete_node(int): Removes a node with the specified value. In case of multiple nodes with the same value, it deletes the first node encountered. The deletion strategy varies based on the node's children.
 
 in_order_traversal(node*): Performs an in-order traversal of the tree, printing node details.
+
 height_update(node*): Updates the heights of nodes after addition or deletion and checks for balance violations. Returns details for any needed rotations.
+
 Rotation Functions:
 
 L_Rotate(node*) and R_Rotate(node*): Perform left and right rotations on the tree to maintain balance after insertions or deletions.
